@@ -1,0 +1,194 @@
+.NavbarItems{
+    z-index: 9999999;
+    background-color: #c62828;
+    // background: rgba(255, 255, 255, 0.711);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    width: 100%;
+    height: 80px;
+    border-radius: 13px;
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.shopping-cart i{
+    font-size: 15pt;
+    position: absolute;
+    top:10px;
+    right: 50px;
+    color: #c62828;
+    border-radius: 35px;
+    background: #fff;
+    padding: 1rem 1rem;
+    cursor: pointer;
+}
+.all{
+    display: flex;
+    width: 100%;
+}
+.items{
+    float: left;
+}
+.formsearch{
+    margin-top: 10px;
+    display: block;
+}
+.logo-navlink{
+    display: none;
+}
+.search-navlink{
+    display: none;
+}
+.navbar-logo a img{
+    width: 65px;
+    margin-left: 15%;
+}
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-gap: 0px;
+    list-style: none;
+    align-items: center;
+}
+.nav-links{
+    text-decoration: none;
+    color: #f5e0b1;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.7rem 1rem;
+    white-space: nowrap;
+}
+.nav-links:hover{
+    background-color: #fff;
+    color: #222;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+.menu-icons{
+    display: none;
+}
+.navbar-image{
+    width: 100%;
+    height: 0;
+    padding-top: 15%; 
+    object-fit: cover;
+    margin-top: 80px;
+    background: url(../assets/images/z4411701654639_d02c63de4f0e71af38c9333dd9247e41.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media screen and (max-width: 1600px){
+    .formsearch{
+        display: none;
+    }
+}
+@media screen and (max-width: 850px){
+    .shopping-cart i{
+        display: block;
+        position: fixed;
+    }
+    .navbar-logo{
+        display: none;
+    }
+    .logo-navlink{
+        display: block;
+    }
+    .search-navlink{
+        display: block;
+        align-items: center;
+        border-radius: 4px;
+        overflow: hidden;
+        padding: 0.7rem 1rem;
+    }
+    .search-form-navlink{
+        width: 100%;
+        padding: 0.7rem 1rem;
+        box-shadow: 0 5px 15px 0 rgb(0, 0, 0, 0.25);
+        margin: 1rem 1rem;
+    }
+    .search-form-navlink input {
+        flex: 1;
+        border: none;
+        padding: 8px;
+        outline: none;
+        width: 70%;
+        font-size: 14pt;
+      }
+      .search-form-navlink button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0.7rem 0.5rem;
+        width: 20%;
+      }
+      .search-form-navlink button:hover{
+        background-color: #222;
+        color: #fff;
+      }
+    .logo-navlink a img{
+        width: 120px;
+        margin-bottom: 5%;
+    }
+    .formsearch{
+        display: none;
+    }
+    .NavbarItems{
+        z-index: 9999999;
+        top:0px;
+    }
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background: rgba(255, 255, 255, 0.771);
+        width: 50%;
+        height: 2000%;
+        position: absolute;
+        top:0px;
+        left: -100%;
+        opacity: 0;
+        align-items: stretch;
+        padding: 80px 0 30px 0;
+        margin: 0;
+        box-shadow: 0 5px 15px 0 rgb(0, 0, 0, 0.25);
+        border-radius: 13px;
+        transition: 0.2s ease-in-out;
+    }
+    .nav-menu.active{
+        left: 0;
+        opacity: 1;
+        z-index: -1;
+        transition: 0.2s ease-in-out;
+    }
+    .nav-links{
+        display: block;
+        width: 80.5%;
+        height: auto;
+        font-size: 1.2rem;
+        margin-left: 7%;
+        color: #222;
+        text-align: left;
+    }
+    .nav-links:hover{
+        background-color: #c62828;
+        color: #f5e0b1;
+        transition: none;
+    }
+    .menu-icons{
+        display: block;
+        cursor: pointer;
+    }
+    .menu-icons i{
+        margin: 1rem 2rem;
+        box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+        padding: 0.5rem 0.8rem;
+        border-radius: 5px;
+        background: #fff;
+        font-size: 2rem;
+    }
+}

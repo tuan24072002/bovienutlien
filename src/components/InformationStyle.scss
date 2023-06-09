@@ -1,0 +1,37 @@
+.information .carousel .post .post-image img{
+    width: 100%;
+}
+.information .carousel .post {
+    margin-top: 5%;
+    width: 100%;
+    cursor: pointer;
+}
+.information .carousel .post .post-image .image{
+    position: relative;
+    display: inline-block;
+    width: 80%;
+}
+.information .carousel .post .post-image .image  p{
+    text-align: left;
+    font-weight: bold;
+}
+.information .carousel .post .post-image .more{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;    
+}
+.information .carousel .post .post-image .more p{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    border-radius: 5px;
+}
+.information .carousel .post:hover .post-image .more{
+    opacity: 1;
+}
+.information .carousel .post .post-image .more p:hover{
+    background-color: rgba(0, 0, 0, 0.444);
+}

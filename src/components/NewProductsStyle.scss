@@ -1,0 +1,72 @@
+.new-product .carousel .product img{
+    width: 80%;
+}
+.new-product .carousel .product{
+    margin-top: 5%;
+    width: 100%;
+    cursor: pointer;
+}
+.new-product .carousel .product .product-image{
+    position: relative;
+    display: inline-block;
+}
+.new-product .carousel .product .product-image .icon i{
+    margin-right: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #222;
+    border-radius: 50px;
+}
+.new-product .carousel .product .product-image .icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.new-product .carousel .product:hover .product-image .icon{
+    opacity: 1;
+}
+.new-product .carousel .product .catalog a{
+    text-decoration: none;
+    color: #555;
+}
+.new-product .carousel .product p{
+    margin-top: 1%;
+    color: #555;
+}
+.new-product .carousel .product .product-name a{
+    text-decoration: none;
+    color: #222;
+}
+.new-product .carousel .product .number-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .new-product .carousel .product .number-input button {
+    padding: 0.5rem 0.5rem;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .new-product .carousel .product .number-input input {
+    width: 50px;
+    text-align: center;
+    border: none;
+    padding: 0.6rem 0.2rem;
+  }
+  .new-product .carousel .product .number-input .add-to-cart{
+    margin-left: 5px;
+  }
+  .new-product .carousel .product .number-input .add-to-cart i{
+    padding: 0.5rem 0.5rem;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+  }
