@@ -5,10 +5,12 @@
     margin-top: 5%;
     width: 100%;
     cursor: pointer;
+    
 }
 .new-product .carousel .product .product-image{
     position: relative;
     display: inline-block;
+    text-align: center;
 }
 .new-product .carousel .product .product-image .icon i{
     margin-right: 20px;
@@ -27,6 +29,11 @@
 }
 .new-product .carousel .product:hover .product-image .icon{
     opacity: 1;
+}
+.new-product .carousel .product .catalog,
+.new-product .carousel .product .product-name,
+.new-product .carousel .product p{
+    text-align: center;
 }
 .new-product .carousel .product .catalog a{
     text-decoration: none;
@@ -69,4 +76,10 @@
     background-color: #f1f1f1;
     border: none;
     cursor: pointer;
+  }
+  @media screen and (max-width: 1030px) {
+    .new-product .carousel .product .product-image{
+        left: 50%;
+        transform: translate(-50%);
+    }
   }

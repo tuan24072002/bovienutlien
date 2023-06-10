@@ -37,15 +37,21 @@ function Index() {
                         </div>
                         <div className='product-index'>
                             <div className='product'>
-                                <img src={product1} alt='' />
+                                <div className='product-image'>
+                                    <img src={product1} alt='' />
+                                </div>
                                 <p>BÒ VIÊN GÂN</p>
                             </div>
                             <div className='product'>
-                                <img src={product2} alt='' />
+                                <div className='product-image'>
+                                    <img src={product2} alt='' />
+                                </div>
                                 <p>THỊT BÒ TƯƠI</p>
                             </div>
                             <div className='product'>
-                                <img src={product3} alt='' />
+                                <div className='product-image'>
+                                    <img src={product3} alt='' />
+                                </div>
                                 <p>CHẢ LỤA - CHẢ BÒ</p>
                             </div>
                         </div>

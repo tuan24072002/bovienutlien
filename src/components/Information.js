@@ -17,7 +17,7 @@ function Information() {
         },
         tablet: {
             breakpoint: { max: 1024, min: 464 },
-            items: 2
+            items: 1
         },
         mobile: {
             breakpoint: { max: 464, min: 0 },
@@ -45,7 +45,7 @@ function Information() {
                                 <img src={post2} alt='' />
                                 <div className='more'><p>Xem thêm</p></div>
                                 <div className='title'>
-                                    <p>TIỆM NHÀ ÚT – KÊNH MUA BÁN BÒ VIÊN PHÔ MAI THƠM NGON GIA TRUYỀN</p>
+                                    <p>MUA BÒ VIÊN QUẬN 4 Ở ĐÂU? NGON BỔ DƯỠNG, KHÔNG HÀN THE</p>
                                 </div>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ function Information() {
                                 <img src={post3} alt='' />
                                 <div className='more'><p>Xem thêm</p></div>
                                 <div className='title'>
-                                    <p>TIỆM NHÀ ÚT – KÊNH MUA BÁN BÒ VIÊN PHÔ MAI THƠM NGON GIA TRUYỀN</p>
+                                    <p>CẬP NHẬT CHỖ MUA BÒ VIÊN GIÁ SỈ NGON GIÚP KHÁCH KINH DOANH QUÁN ĐẮT KHÁCH</p>
                                 </div>
                             </div>
                         </div>
@@ -67,7 +67,7 @@ function Information() {
                                 <img src={post4} alt='' />
                                 <div className='more'><p>Xem thêm</p></div>
                                 <div className='title'>
-                                    <p>TIỆM NHÀ ÚT – KÊNH MUA BÁN BÒ VIÊN PHÔ MAI THƠM NGON GIA TRUYỀN</p>
+                                    <p>LỰA CHỌN THỊT BÒ CHO BÉ ĂN DẶM PHẦN NÀO NGON GIÀU DINH DƯỠNG</p>
                                 </div>
                             </div>
                         </div>

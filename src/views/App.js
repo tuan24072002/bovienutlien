@@ -5,6 +5,7 @@ import SanPham from '../routes/SanPham';
 import CauChuyen from '../routes/CauChuyen';
 import ThongTin from '../routes/ThongTin';
 import LienHe from '../routes/LienHe';
+import messenger from '../assets/images/messenger.png';
 function App() {
   return (
 
@@ -16,6 +17,11 @@ function App() {
         <Route path='/cauchuyen' element={<CauChuyen />} />
         <Route path='/lienhe' element={<LienHe />} />
       </Routes>
+      <div className='messenger'>
+        <a href='https://www.facebook.com/IAm.TuanSeven.Info/'>
+          <img src={messenger} alt='' />
+        </a>
+      </div>
     </div>
 
   );

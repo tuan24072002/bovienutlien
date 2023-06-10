@@ -1,6 +1,6 @@
 .NavbarItems{
     z-index: 9999999;
-    background-color: #c62828;
+    background-color: #a02024;
     // background: rgba(255, 255, 255, 0.711);
     display: flex;
     justify-content: space-between;
@@ -19,12 +19,15 @@
     position: absolute;
     top:10px;
     right: 50px;
-    color: #c62828;
+    color: #a02024;
     border-radius: 35px;
     background: #fff;
     padding: 1rem 1rem;
     cursor: pointer;
 }
+.shopping-cart i.active {
+    transform: translateX(-5%);
+  }
 .all{
     display: flex;
     width: 100%;
@@ -109,30 +112,36 @@
         width: 100%;
         padding: 0.7rem 1rem;
         box-shadow: 0 5px 15px 0 rgb(0, 0, 0, 0.25);
-        margin: 1rem 1rem;
+        margin: 1rem 0rem;
+        text-align: center;
     }
     .search-form-navlink input {
         flex: 1;
         border: none;
-        padding: 8px;
+        padding:0.5rem 0 0.7rem 0;
         outline: none;
         width: 70%;
-        font-size: 14pt;
+        font-size: 12pt;
       }
       .search-form-navlink button {
         background: none;
-        border: none;
+        border: 1px solid #555;
         cursor: pointer;
         padding: 0.7rem 0.5rem;
         width: 20%;
+        color: black;
+        font-weight: bold;
       }
       .search-form-navlink button:hover{
         background-color: #222;
         color: #fff;
       }
-    .logo-navlink a img{
+     .items .logo-navlink a img{
         width: 120px;
         margin-bottom: 5%;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
     }
     .formsearch{
         display: none;
@@ -157,17 +166,17 @@
         margin: 0;
         box-shadow: 0 5px 15px 0 rgb(0, 0, 0, 0.25);
         border-radius: 13px;
-        transition: 0.2s ease-in-out;
+        transition: 0.5s ease-in-out;
     }
     .nav-menu.active{
         left: 0;
         opacity: 1;
         z-index: -1;
-        transition: 0.2s ease-in-out;
+        transition: 0.5s ease-in-out;
     }
     .nav-links{
         display: block;
-        width: 80.5%;
+        width: auto;
         height: auto;
         font-size: 1.2rem;
         margin-left: 7%;

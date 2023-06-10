@@ -4,6 +4,7 @@ import logo from '../assets/images/logo.png';
 import { MenuItems } from './MenuItems.js';
 import { Link } from 'react-router-dom';
 import FormSearch from './FormSearch';
+
 class Navbar extends React.Component {
     state = { clicked: false };
     handleClick = () => {

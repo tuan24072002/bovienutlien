@@ -1,4 +1,4 @@
-.information .carousel .post .post-image img{
+.information .carousel .post .post-image .image img{
     width: 100%;
 }
 .information .carousel .post {
@@ -10,6 +10,8 @@
     position: relative;
     display: inline-block;
     width: 80%;
+    left: 50%;
+    transform: translate(-50%);
 }
 .information .carousel .post .post-image .image  p{
     text-align: left;

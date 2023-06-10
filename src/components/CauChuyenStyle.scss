@@ -165,11 +165,13 @@
     font-size: 2rem;
     width: 80%;
     height: 200px;
+    border: 2px solid black;
 }
   .cauchuyen .content span input{
     margin: 1% 1% 1% 0;
-        font-size: 1.3rem;
-        padding: 0.5rem 0.2rem;
+    font-size: 1rem;
+    padding: 0.5rem 0rem;
+    border: 2px solid black;
   }
   .cauchuyen .content .checkbox{
     font-size: 1.3rem;
@@ -277,7 +279,8 @@
     .cauchuyenall{
         display: flex;
         flex-direction: column;
-
+        padding: 0;
+        margin: 5% 0 0 0;
     }
     .cauchuyen .title1{
         width: 100%;

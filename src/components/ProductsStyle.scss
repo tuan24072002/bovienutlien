@@ -1,0 +1,354 @@
+.product-all{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+.dropdown-and-sort{
+    display: flex;
+}
+.dropdown-and-sort .icon-sort{
+    margin-left: 1%;
+}
+.dropdown-and-sort .icon-sort .grid-active{
+    padding: 0rem 1rem;
+    display: flex;
+    background-color: #EEEEEE;
+}
+.dropdown-and-sort .icon-sort .grid-active .list{
+    padding-left: 10%;
+}
+.dropdown-and-sort .icon-sort .list-active .list{
+    padding-left: 10%;
+}
+.dropdown-and-sort .icon-sort .list-active{
+    padding: 0rem 1rem;
+    display: flex;
+    background-color: #EEEEEE;
+}
+.dropdown-and-sort .icon-sort .grid-active .grid{
+    color: red;
+}
+.dropdown-and-sort .icon-sort .list-active .list{
+    color: red;
+}
+.dropdown-and-sort .icon-sort .list-active span:hover{
+    background-color: #ddd;
+    cursor: pointer;
+}
+.dropdown-and-sort .icon-sort .grid-active span:hover{
+    background-color: #ddd;
+    cursor: pointer;
+}
+.dropdown-and-sort .icon-sort:hover{
+    border-radius: 5px;
+}
+.dropdown-and-sort .icon-sort span{
+    font-size: 2rem;
+}
+.dropdownlist{
+    align-items: center;
+    display: flex;
+    padding-left: 2%;
+    width: 225px;
+}
+.grid .products .product .product-image img{
+    width: 100%;
+}
+.dropdownlist select{
+    width: 100%;
+    height: 35px;
+}
+.dropdownlist select option{
+    color: black;
+    font-weight: bold;
+}
+.grid .products{
+    padding-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2%;
+}
+.grid .products .product{
+  width: 16%;
+  margin-right: 5%;
+    margin-bottom: 5%;
+}
+.product-all .grid .products .product .product-image{
+    position: relative;
+    display: inline-block;
+}
+.product-all .list .products .product .product-image{
+    position: relative;
+    display: inline-block;
+}
+.product-all .grid .products .product .product-image .icon i{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #222;
+    border-radius: 50px;
+    cursor: pointer;
+    justify-content: space-between;
+    margin-right: 10%;
+}
+.product-all .list .products .product .product-image .icon i{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #222;
+    border-radius: 50px;
+    cursor: pointer;
+    justify-content: space-between;
+    margin-right: 10%;
+}
+.product-all .list .products .product .catalog a{
+    text-decoration: none;
+    color: #555;
+}
+.product-all .grid .products .product .catalog{
+  width: 100%;
+  text-align: center;
+}
+.product-all .grid .products .product .product-name{
+  width: 100%;
+  text-align: center;
+}
+.product-all .grid .products .product p{
+  text-align: center;
+}
+.product-all .grid .products .product .catalog a{
+    text-decoration: none;
+    color: #555;
+    text-align: center;
+
+}
+.product-all .list .products .product p{
+    margin-top: 1%;
+    color: #555;
+}
+.product-all .grid .products .product p{
+    margin-top: 1%;
+    color: #555;
+}
+.product-all .list .products .product .product-name a{
+    text-decoration: none;
+    color: #222;
+}
+.product-all .grid .products .product .product-name a{
+    text-decoration: none;
+    color: #222;
+}
+.product-all .list .products .product .product-image .icon{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.product-all .grid .products .product .product-image .icon{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.product-all .list .products .product:hover .product-image .icon{
+    opacity: 1;
+}
+.product-all .grid .products .product:hover .product-image .icon{
+    opacity: 1;
+}
+.product-all .list .products .product .number-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.product-all .grid .products .product .number-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .product-all .list .products .product .number-input button {
+    padding: 0.5rem 0.5rem;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #222;
+  }
+  .product-all .grid .products .product .number-input button {
+    padding: 0.5rem 0.5rem;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #222;
+  }
+  .product-all .list .products .product .number-input input {
+    width: 50px;
+    text-align: center;
+    border: none;
+    padding: 0.6rem 0.2rem;
+    align-items: center;
+    border: 1px solid #222;
+  }
+  .product-all .grid .products .product .number-input input {
+    width: 50px;
+    text-align: center;
+    border: none;
+    padding: 0.6rem 0.2rem;
+    align-items: center;
+    border: 1px solid #222;
+  }
+  .product-all .list .products .product .number-input .add-to-cart{
+    margin-left: 5px;
+  }
+  .product-all .grid .products .product .number-input .add-to-cart{
+    margin-left: 5px;
+  }
+  .product-all .list .products .product .number-input .add-to-cart i{
+    padding: 0.5rem 0.5rem;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+  }
+  .product-all .grid .products .product .number-input .add-to-cart i:hover{
+    background-color: #a02024;
+    color: #ddd;
+  }
+  .product-all .list .products .product .number-input .add-to-cart i:hover{
+    background-color: #a02024;
+    color: #ddd;
+  }
+  .product-all .grid .products .product .number-input .add-to-cart i{
+    padding: 0.5rem 0.5rem;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+  }
+  .product-all .grid-hidden{
+    display: none;
+  }
+  .product-all .list-hidden{
+    display: none;
+  }
+  .product-all .list .products .product{
+    display: flex;
+    width: 100%;
+    padding-top: 2%;
+    padding-left: 2%;
+  }
+  .product-all .list .products .product .product-info{
+    padding: 2rem 2rem 0 0;
+    width: 48%;
+  }
+  .product-all .list .products .product .product-info .catalog a{
+    width: 100%;
+    float: left;
+  }
+  .product-all .list .products .product .product-info .product-name a{
+    width: 100%;
+    float: left;
+  }
+  .product-all .list .products .product .product-info .info{
+    width: 100%;
+    text-align: left;
+    margin-top: -2%;
+    color: #555;
+  }
+  .product-all .list .products .product .product-info .number-input{
+    float: left;
+    width: auto;
+    margin-top: 2%;
+  }
+  .product-all .list .products .product .product-image img{
+    width: 80%;
+  }
+  .product-all .list .products .product .product-info .catalog a,
+  .product-all .list .products .product .product-info .product-name a,
+  .product-all .list .products .product .product-info p,
+  .product-all .list .products .product .product-info .number-input
+  {
+    text-align: left;
+  }
+  .products-all{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+  margin-left: auto; 
+  margin-right: auto;
+  }
+  .products-all .category{
+    float: left;
+    width: 15%;
+  }
+  .products-all .product-all
+  {
+    float: right;
+    width: 70%;
+  }
+
+  .products-all .category .title{
+    border-bottom: 1px solid #555;
+  }
+  .discount{
+    display: flex;
+    justify-content: center;
+  }
+  .discount-list{
+    display: flex;
+    width: 100%;
+  }
+  .discount .old p,
+  .discount-list .old p
+  {
+    text-decoration: line-through;
+  }
+  .discount-list .new b{
+    margin-left: 5%;
+    color: red;
+  }
+  .discount .new b{
+    margin-left: 5%;
+    color: red;
+  }
+  @media screen and (max-width: 1300px) {
+    .products-all{
+      width: 100%;
+    }
+    .products-all .category{
+      width: 15%;
+    }
+  }
+  @media screen and (max-width: 1280px) {
+    .products-all .category{
+      display: block;
+    }
+  }
+@media screen and (max-width: 1120px) {
+    .grid .products .product {
+      width: 45%;
+      margin: 2%;
+    }
+    .products-all{
+      flex-direction: column-reverse;
+    }
+    .products-all .product-all{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .dropdownlist{
+      padding-left: 6%;
+    }
+    .products-all .category{
+      width: 70%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      margin-left: 18%;
+    }
+  }

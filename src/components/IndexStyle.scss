@@ -37,6 +37,12 @@
     justify-content: space-between;
 }
 .index .background-second .image-logo-index .product-index .product{
+    padding: 5%;
+}
+.index .background-second .image-logo-index .product-index .product .product-image{
+    text-align: center;
+}
+.index .background-second .image-logo-index .product-index .product img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -44,6 +50,7 @@
 .index .background-second .image-logo-index .product-index p{
     font-size: 1.5rem;
     font-weight: bold;
+    text-align: center;
 }
 .index .background-third{
     width: 70%;
@@ -101,6 +108,7 @@
 }
 .index .background-second .title{
     padding-top: 3%;
+    text-align: center;
 }
 .index .background-second .title a{
     text-decoration: none;
@@ -129,16 +137,31 @@
         padding-bottom: 10%;
     }
     .index .background-second .image-logo-index .product-index .product img{
-        width: 70%;
+        width: 100%;
     }
 }
 @media screen and (max-width: 850px){
     .index .background-second .image-logo-index .logo-index{
-        width: 200px;
+        width: 100%;
         padding-right: 0%;
         padding-bottom: 3%;
     }
-    .index .background-second .image-logo-index .product-index{
+    .index .background-second .image-logo-index .logo-index img{
+        width: 40%;
+        padding-left: 5%;
+    }
+    .background-third .carousel{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 770px){
+    .index .background-second .image-logo-index .logo-index{
+        text-align: center;
+    }
+    .index .background-second .image-logo-index .logo-index img{
+        width: 60%;
+    }
+.index .background-second .image-logo-index .product-index{
         flex-direction: column;
         width: 95%;
         position: relative;
@@ -159,7 +182,7 @@
         width: 95%;
     }
     .index .background-third .product img{
-        height: 200px;
+        height: 300px;
         padding: 2%;
     }
     .background-third .story{
