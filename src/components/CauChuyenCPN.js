@@ -33,7 +33,7 @@ const CauChuyenCPN = () => {
                         <div className='poster'>
                             <img src={poster} alt='poster' />
                         </div>
-                        <div className='title1'>CÂU CHUYỆN KHỎI NGHIỆP ÚT LIÊN</div><br />
+                        <div className='title1'>CÂU CHUYỆN KHỞI NGHIỆP ÚT LIÊN</div><br />
                         <div className='date'>Tháng Năm 14, 2021 / <i class="fa-solid fa-eye"></i> 849 / <i class="fa-regular fa-message fa-flip-horizontal"></i> 0</div>
                         <div className='title2'><h2>CÂU CHUYỆN KHỞI NGHIỆP ÚT LIÊN</h2></div>
                         <div className='content'>
