@@ -53,6 +53,7 @@
 }
 .grid .products .product .product-image img{
     width: 100%;
+    border-radius: 7px;
 }
 .dropdownlist select{
     width: 100%;
@@ -72,7 +73,8 @@
 .grid .products .product{
   width: 16%;
   margin-right: 5%;
-    margin-bottom: 5%;
+  margin-bottom: 5%;
+  padding: 0.5rem 0.5rem;
 }
 .product-all .grid .products .product .product-image{
     position: relative;
@@ -268,6 +270,7 @@
   }
   .product-all .list .products .product .product-image img{
     width: 80%;
+    border-radius: 7px;
   }
   .product-all .list .products .product .product-info .catalog a,
   .product-all .list .products .product .product-info .product-name a,
@@ -317,6 +320,11 @@
     margin-left: 5%;
     color: red;
   }
+  .products-all .product-all .products .product:hover{
+    box-shadow: 0 5px 15px 0 rgb(0, 0, 0, 0.25);
+    border-radius: 7px;
+    padding: 0.5rem 0.5rem;
+  }
   @media screen and (max-width: 1300px) {
     .products-all{
       width: 100%;
@@ -332,7 +340,8 @@
   }
 @media screen and (max-width: 1120px) {
     .grid .products .product {
-      width: 45%;
+      text-align: center;
+      width: 40%;
       margin: 2%;
     }
     .products-all{
@@ -360,7 +369,6 @@
     .grid .products .product{
       width: 40%;
       margin-right: 5%;
-      border: 2px solid red;
     }    
     .products-all .product-all .grid{
       width: 100%;
@@ -369,18 +377,12 @@
       width: 40%;
       margin-right: 7%;
       padding: 0;
-      border: 2px solid red;
     }
   }
   @media screen and (max-width:570px) {
     .products-all .product-all .grid .products .product{
       width: 100%;
       margin-right: 0;
-    }
-    .products-all .product-all .grid .products .product .product-image{
-      position: relative;
-      left: 50%;
-      transform: translate(-50%);
     }
   }
   @media screen and (max-width:480px) {
@@ -390,7 +392,9 @@
     .products-all .product-all .list .products .product .product-info{
       padding: 0;
     }
-    .products-all .product-all .list .products .product{
+    .products-all .product-all .list .products .product,
+    .products-all .product-all .grid .products .product
+    {
       margin-top: 10%;
     }
   }
